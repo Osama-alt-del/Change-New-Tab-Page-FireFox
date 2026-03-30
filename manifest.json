@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "New Tab Page Changer",
+    "version": "1.0",
+
+    "description": "This is an extension that lets you change the new tab page on FireFox",
+
+    "browser_specific_settings": {
+        "gecko":{
+            "id": 
+            "data_collection_permission":{
+                "required": ["none"]
+            }
+        }
+    },
+
+    "content_scripts":{
+        "js": ["newtabchange.js"]
+    }
+}
