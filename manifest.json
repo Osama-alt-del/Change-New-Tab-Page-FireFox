@@ -16,7 +16,10 @@
     "content_scripts":[
         {
             "matches": ["<all_urls>"],
-            "js": ["newtabchange.js"]
+            "js": []
         }
-     ]
+     ],
+    "background": {
+        "scripts": ["newtabchange.js"]
+    }
 }
