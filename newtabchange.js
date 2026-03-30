@@ -3,7 +3,7 @@ So I want to detect if a new tab was opened, and then change the url to be somet
 For now I will set the url manually and I can create popup later.
 */
 
-
+/*
 // Check to see if this file is even running:
 console.log("running");
 
@@ -16,3 +16,7 @@ function handleCreated(tab) {
 // We pass function in here, but what about parameter?
 // getting "browser.tabs is undefined" here:
 browser.tabs.onCreated.addListener(handleCreated);
+*/
+
+// Will try just redirecting here:
+window.location = 'https://www.yahoo.co.jp/';
