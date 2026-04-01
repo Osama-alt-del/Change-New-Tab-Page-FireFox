@@ -1,5 +1,5 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "New Tab Page Changer",
     "version": "1.0",
 
@@ -15,6 +15,12 @@
                 "required": ["none"]
             }
         }
+    },
+
+    "action": {
+        "default_icon": "icons/PopupIcon.png",
+        "default_title": "NewTabChange",
+        "default_popup": "popup/popup.html"
     },
 
     "chrome_url_overrides":{
