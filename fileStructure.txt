@@ -1,0 +1,10 @@
+.
+├── README.md
+├── fileStructure.txt
+├── icons
+│   └── NewTabIcon.png
+├── manifest.json
+├── redirect.html
+└── redirect.js
+
+2 directories, 6 files

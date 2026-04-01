@@ -5,6 +5,10 @@
 
     "description": "This is an extension that lets you change the new tab page on FireFox",
 
+    "icons":{
+        "48": "icons/NewTabIcon.png"
+    },
+
     "browser_specific_settings": {
         "gecko":{
             "data_collection_permissions":{
