@@ -1,4 +1,90 @@
-/* For some reason this file is not being loaded */
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: gray;
+    margin: 0;
+    min-width: 260px;
+    padding: 16px;
+    font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+    background-color: #10262b;
+    color: #d4f5f0;
+}
+
+h1 {
+    margin: 0 0 8px;
+    font-size: 18px;
+    text-align: center;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #1f3d44;
+    margin: 0 0 12px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+input#inputURL {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #2a4d54;
+    border-radius: 6px;
+    background-color: #173238;
+    color: #d4f5f0;
+    font-size: 14px;
+}
+
+input#inputURL:focus {
+    outline: none;
+    border-color: #00bcd4;
+    box-shadow: 0 0 0 2px rgba(0, 188, 212, 0.25);
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #00bcd4;
+    color: #062226;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+}
+
+button:hover {
+    background-color: #1fd6ec;
+}
+
+p {
+    margin: 12px 0 0;
+    font-size: 13px;
+}
+
+.currenURL {
+    margin-top: 2px;
+    font-weight: 600;
+    word-break: break-all;
+}
+
+.github-link {
+    display: block;
+    margin-top: 16px;
+    text-align: center;
+    font-size: 12px;
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+.github-link:hover {
+    text-decoration: underline;
 }
